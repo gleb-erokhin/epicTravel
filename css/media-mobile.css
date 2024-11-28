@@ -1,0 +1,128 @@
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .container {
+    width: 320px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-content {
+    row-gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .promo {
+    padding-top: 40px;
+    padding-left: 0;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .promo-title {
+    font-size: 34px;
+  }
+
+  .promo-subtitle {
+    font-size: 14px;
+  }
+
+  .content-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .content-img {
+    flex-basis: 120px;
+  }
+
+  .content-column-mobile {
+    flex-direction: column !important;
+  }
+
+  /* tours */
+  .inner-page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .card {
+    width: 290px;
+  }
+
+  .card-desc a {
+    font-size: 14px;
+  }
+
+  .card-desc p {
+    font-size: 14px;
+  }
+
+  .cards-wrapper {
+    row-gap: 20px;
+  }
+
+  /* About */
+  .container.container-article {
+    width: 320px;
+  }
+
+  .article-content p {
+    font-size: 14px;
+  }
+
+  .article-content p+p {
+    margin-top: 14px;
+  }
+
+  .article-img {
+    margin: 20px 0;
+  }
+
+  /* Contacts */
+  .address-list li {
+    font-size: 14px;
+  }
+
+  .address-wrapper {
+    gap: 20px;
+  }
+
+  .address-item {
+    width: 290px;
+  }
+
+  .form-wrapper {
+    padding: 20px 15px;
+  }
+
+  .input.input-50 {
+    flex: none;
+  }
+
+  .radio-list label, .checkbox-list label {
+    font-size: 14px;
+  }
+
+  .title-1 {
+    font-size: 28px;
+  }
+
+  .title-2 {
+    font-size: 22px;
+  }
+
+  .title-3 {
+    font-size: 18px;
+  }
+}
